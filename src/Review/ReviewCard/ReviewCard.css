@@ -1,0 +1,24 @@
+.reviewCardContainer {
+    width : 30vw;
+    min-width: 300px;
+    padding : 5vh 5vw;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.reviewCardContainer p {
+    color : #808080e1;
+    text-align: center;
+    width : fit-content
+}
+.reviewCardsContainer h1 {
+    font-size : 22px;
+    font-weight: 600;
+    border-top : 2px solid #d1d1d1;
+    padding-top : 3vh;
+    margin-bottom: 0;
+}
+.reviewCardsContainer label {
+    margin-top : 0px;
+}

@@ -1,0 +1,46 @@
+.reviewContainer {
+    width : 99vw;
+    height: fit-content
+}
+
+.reviewContainer .ReviewTitle {
+    margin : 5vh auto ;
+    text-align: center;
+    letter-spacing: 1px;
+    transform: translateX(-1em);
+}
+.reviewCardsContainer {
+    display  : flex;
+    flex-wrap: wrap;
+    width : 99vw;
+    height: fit-content;
+    justify-content: center;
+    margin-bottom: 7vh;
+}
+
+.noReviews{
+    margin-top: 7vh;
+    align-items: center;
+    height : 20vh;
+    display : flex;
+    flex-direction: column;
+}
+
+.addReviewButtonContainer{
+width : 100vw;
+justify-content: center;
+margin-top: 2vh;
+}
+
+.addReviewButton{
+    border-radius: 20px;
+    height: 40px;
+    width: 40px;
+    color : white;
+    background :#314152;
+    border:none;
+    padding-top: 4px;
+    cursor: pointer;
+    margin-left :48vw;
+
+}

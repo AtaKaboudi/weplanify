@@ -1,0 +1,38 @@
+.leftPannel{
+    width :50vw;
+    display: flex;
+    flex-direction: column;
+    padding: 10vh 2vw;
+}
+
+.LeftPannelTitle {
+    letter-spacing: 2px;
+}
+
+.NoMatch {
+width : 50vw;
+text-align: center;
+margin-top: 20vh;
+font-size : 10px;
+}
+
+.paginationButtons {
+    width: fit-content;
+    justify-content: center;
+    align-items: center;
+    margin : 2vh auto;
+}
+
+.paginationButtons  button{
+width : fit-content;
+margin-left:2px;
+margin-bottom : 2vh;
+cursor : pointer;
+border: none ; 
+color :white;
+border-radius : 2px ;
+background : #314152;
+}
+.paginationButtons  button :focus{
+    background : white
+}

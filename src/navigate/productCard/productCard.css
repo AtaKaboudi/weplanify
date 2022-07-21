@@ -1,0 +1,72 @@
+.cardContainer {
+    width : 45vw ;
+    max-height : 40vh;
+    min-width: 35vw;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    display : flex;
+    flex-direction: row;
+    align-items: top;
+    border-radius: 12px;
+    background-color: white;
+    margin-top:2vh;
+    cursor:pointer
+
+}
+
+.cardContainer img {
+    width : 23vw;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+}
+
+.cardContainer .infoWrapper {
+    padding : 2vw 2vh
+}
+
+.infoWrapper h1 {
+    font-size: 24px;
+    line-height: 1em;
+}
+.infoWrapper .CategoryLabel {
+    color :#314152;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight:300;
+}
+.infoWrapper .horizontalLabel{
+    width : 100%;
+    justify-content: space-between;
+    display : inline-flex;
+    color :#B1B1B1;
+
+}
+.rowFlex {
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+}
+.verticalLabel {
+    width: 50%;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top:2vh;
+}
+.verticalLabel h3 {
+    padding : 0 ;
+    margin : 0 ;
+}
+.verticalLabel label {
+    font-size: 12px;
+}
+.moreInfoWrapper {
+    width: 100%;
+    display :flex;
+    flex-direction: row;
+    justify-content: right;
+    margin-top:3vh;
+    font-size : 12px;
+    cursor: pointer;
+}

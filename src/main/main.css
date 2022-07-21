@@ -1,0 +1,43 @@
+
+.imgWrapper {
+    width : 100vw;
+    height:92vh;
+    background-image: url(https://images.pexels.com/photos/1438081/pexels-photo-1438081.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1) ;
+}
+.imgWrapper h1 {
+    color : white;
+    letter-spacing: 2px;
+    text-transform :uppercase;
+    font-weight: 700;
+    position : absolute;
+    margin : 60vh 50vh;
+    font-size: 20px;
+    width: fit-content;
+    text-align: center;
+}
+.logo {
+    position : absolute;
+    margin : 50vh 41vw;
+    color :white;
+    font-size: 33px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+.imgWrapper button {
+    filter: grayscale(0);
+    opacity :1;
+    position : absolute;
+    margin : 70vh 45vw;
+    border :none; 
+    border-radius : 12px; 
+    width : 12vw;
+    height : 6vh;
+    align-items: center;
+    text-align: left;
+    display :flex;
+    flex-direction: row;
+    padding : 0 3vw;
+    background : #314152;
+    color :white;
+    cursor:pointer
+}
