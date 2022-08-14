@@ -1,0 +1,8 @@
+.mapContainer{
+    width : 40vw;
+    position:fixed;
+    bottom : 10vh;
+}
+.leaflet-container{
+    height : 60vh;
+}

@@ -1,0 +1,36 @@
+.bestPartnerWrapper{
+    display : flex;
+    flex-direction:row;
+    width : 98vw;
+    margin: 5vh 0;
+}
+.sectionTitleWrapper{
+    width: 35vw;
+    height : 60vh;
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.sectionTitleWrapper h2 {
+    margin-bottom : -5px;
+    text-align: center;
+}
+.sectionTitleWrapper label{
+font-size: 14px;
+text-align: center;
+}
+.arrowWrapper{
+    width : 100%;
+    text-align: center;
+    transform: translateX(-0.7em);
+    margin-top: 3vh;
+    font-size: 17px;
+}
+.arrowWrapper span {
+    cursor : pointer
+}
+.partnersCardContainer{
+    display:flex;
+    flex-direction: row;
+    width : 65vw;
+}

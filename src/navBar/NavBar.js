@@ -21,12 +21,22 @@ function NavBar() {
 			<div className="routes">
 				<label
 					onClick={() => {
-						navigate("/navigate");
+						navigate("/navigate/0");
 					}}>
 					EXPLORE
 				</label>
-				<label>ACCOUNT</label>
-				<label>ABOUT US</label>
+				<label
+					onClick={() => {
+						navigate("/partner");
+					}}>
+					PARTNER
+				</label>
+				<label
+					onClick={() => {
+						navigate("/login");
+					}}>
+					LOGIN
+				</label>
 			</div>
 		</div>
 	);

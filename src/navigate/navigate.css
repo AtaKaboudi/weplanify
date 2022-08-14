@@ -1,8 +1,16 @@
 .leftPannel{
-    width :50vw;
+    width :fit-content;
     display: flex;
     flex-direction: column;
     padding: 10vh 2vw;
+}
+.rightPannel{
+    display: flex;
+    width : fit-content
+}
+.rowflex{
+    display : flex;
+    flex-direction: row;
 }
 
 .LeftPannelTitle {

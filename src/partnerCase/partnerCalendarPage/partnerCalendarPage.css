@@ -1,0 +1,10 @@
+.partnerCalendarButtonsContainer  {
+width : 100%;
+text-align: center;
+}
+.partnerCalendarButtonsContainer button {
+    border : none ;
+    padding : 0 2vw;
+    background : transparent;
+    cursor: pointer
+}

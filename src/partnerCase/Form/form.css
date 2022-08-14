@@ -1,0 +1,94 @@
+.formPageWrapper{
+    display :flex;
+    flex-wrap: wrap;
+}
+
+
+.formWrapper {
+    width : 60vw;
+    height : fit-content;
+    display :flex;
+    flex-direction: row;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-top : 5vh ;
+    margin-left:10vw;
+    padding : 2vh 1vw;
+    width : fit-content
+}
+.formWrapper h3 {
+    width : 100%
+}
+
+.formWrapper span {
+    cursor: pointer
+}
+.itemWrapper{
+    display: flex;
+    flex-direction: column;
+    width : 25vw;
+    margin-top : 5vh;
+    align-items: start;
+}
+.column {
+    display :flex;
+    flex-direction: column;
+    margin : 0 2vw;
+}
+.itemWrapper label {
+    font-size: 14px;
+    margin-bottom:1vh;
+}
+.itemWrapper input {
+    width : 100%;
+    border : none ;
+    border-bottom : 1px solid #CFD9E0;
+    color : #314152;
+}
+.itemWrapper textarea {
+    width : 100%;
+    height: 10vh;
+    border : none ;
+    border-bottom : 1px solid #CFD9E0;
+    color : #314152;
+}
+.itemWrapper :nth-child(2){
+    margin-left: 2vw;
+}
+.locationFormWrapper{
+    width : 64vw;
+    display :flex;
+    flex-direction: column;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin : 5vh 17vw ;
+    padding : 1vh 1vw;
+}
+.locationFormWrapper .itemWrapper{
+    width : 100%;
+}
+.locationFormWrapper span {
+    width : 100%;
+    text-align: right;
+    cursor: pointer;
+}
+.longLatContainers label {
+    width:  20vw;
+    margin-left : 5vw
+}
+.itemWrapper input {
+    margin-left : 5vw;
+}
+
+.partnerFormDtatusWrapper{
+    width : 100%;
+    align-items: center;
+    padding-left: 80%;
+    margin: 5vh 0 ;
+}
+.partnerFormDtatusWrapper button  {
+    border : none ;
+    background : #314152;
+    color : white;
+    padding : 1vh 3vw ;
+    border-radius : 12px ;
+    cursor: pointer
+}

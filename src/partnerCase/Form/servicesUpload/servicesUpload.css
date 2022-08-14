@@ -1,0 +1,61 @@
+
+.pserviceUploadWrapper{
+    width : 53vw;
+    height : fit-content;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    margin-top : 2vh ;
+    margin-left:17vw;
+    padding : 2vh 1vw;
+    width : fit-content;
+    margin-bottom : 2vh;
+}
+.pserviceUploadWrapper .title{
+    width : 40vw;
+    text-align: center;
+
+}
+.pserviceWrapper{
+    display : flex;
+    flex-direction: row;
+    width : 60vw;
+    padding: 1vh 2vw;
+    justify-content: space-between;
+    border-bottom: 1px solid #DEE2E6;
+    align-items: center;
+    cursor: pointer;
+}
+.pserviceWrapper h2 {
+    font-size: 15px;
+    width : 16vw;
+}
+.pserviceWrapper span{
+    font-size: 16px;
+    color : red;
+    cursor:pointer
+}
+.pserviceUploadWrapper button {
+    border : none ;
+    padding : 1vh 2vw;
+    background : #3B4E58;
+    color : white;
+    border-radius: 12px;
+    margin-top : 3vh;
+    margin-left : 80%;
+    cursor:pointer
+}
+.inputNewService{
+    display : flex;
+    flex-direction: row;
+    width : 60vw;
+    padding: 2vh 2vw;
+    justify-content: space-between;
+    border-bottom: 1px solid #DEE2E6;
+    align-items: center;
+    cursor: pointer;
+    
+}
+.inputNewService  input{
+    width : 16vw;
+    border: none ;
+    border-bottom: 1px solid #DEE2E6;
+}

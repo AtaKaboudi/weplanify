@@ -1,7 +1,12 @@
+
+.ProductPageContainer{
+    height : fit-content
+}
 .product {
     display : flex;
     flex-direction: column;
     background-color: #F7F7F7;
+    width: 100%;
 }
 .productDescription{
 width : 70%;
@@ -57,4 +62,40 @@ height:fit-content;
 .infoContainer .ratingStarsContainer {
     align-self: center;
     text-align: center;
+}
+
+.calendarDimensions{
+width : 99vw;
+height : fit-content;
+}
+
+.calendarDimensions .sectiontitle {
+    text-align: center;
+    margin-top : 5vh ;
+    margin-bottom : 0;
+    letter-spacing: 2px;
+}
+
+.calendarDimensions .sectionDescription{
+margin-bottom : 10vh;
+text-align: center;
+font-size: 15px;
+}
+.leftNavBar {
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 99vh;
+    border-right:1px solid #314152;
+}
+.leftNavBar label {
+    padding : 2vh 1vw ;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.rowFlex{
+    display : flex;
+    flex-direction: row;
 }

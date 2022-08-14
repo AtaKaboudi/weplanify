@@ -1,0 +1,19 @@
+.mainPageWrapper{
+    display : flex;
+    flex-direction: row;
+    align-items: top;
+}
+.mainMessageContainer{
+    width : 100%;
+    text-align : center
+}
+.generalAnalyticsLabel  {
+    margin-top: 10vh;
+    font-size: 14px;;
+}
+.reportCardsContainer{
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import "./productCard.css";
 import { useNavigate } from "react-router-dom";
-
+import Calendar from "../../calendar/calendar";
+import ReactStars from "react-rating-stars-component";
 const ProductCard = (props) => {
 	let params = props.params;
 	const navigate = useNavigate();
@@ -10,34 +11,45 @@ const ProductCard = (props) => {
 		navigate("/product/" + params.id);
 	}
 	return (
-		<div
-			className="cardContainer"
-			onClick={() => {
-				rerouteToProduct();
-			}}>
-			<img src={params.img}></img>
+		<div className="cardContainer">
+			<img src={params.img[0]}></img>
 			<div className="infoWrapper">
-				<label className="CategoryLabel">{params.category}</label>
 				<h1>{params.company_name}</h1>
 				<div className="horizontalLabel">
-					<label> Owner</label>
-					<label> {params.owner_name}</label>
+					<label className="CategoryLabel">{params.category}</label>
 				</div>
-				<div className="rowFlex">
-					<div className="verticalLabel">
-						<h3> {params.rating}</h3>
-						<label> Rating</label>
-					</div>
-					<div className="verticalLabel">
-						<h3> 20 </h3>
-						<label> Starting Price</label>
-					</div>
+
+				<div className="addressContainer">
+					<h3>{params.address}</h3>
 				</div>
-				<div className="moreInfoWrapper">
-					<label>More</label>
+				<div className="verticalLabel">
+					<label> Rating</label>
+					<ReactStars
+						value={params.rating}
+						count={5}
+						onChange={() => {}}
+						size={25}
+						activeColor="#ffd700"
+						displayOnly={true}
+					/>
+				</div>
+				<button
+					className="learnMoreButton"
+					onClick={() => {
+						rerouteToProduct();
+					}}>
+					<label> Learn More</label>
 					<span class="material-symbols-outlined">chevron_right</span>
-				</div>
+				</button>
 			</div>
+			<Calendar
+				nbDays={3}
+				displayOnly={true}
+				productId={params.id}
+				calendarWidth={34 + "vw"}
+				timeSlotsNumberLimit={6}
+			/>
+			={" "}
 		</div>
 	);
 };

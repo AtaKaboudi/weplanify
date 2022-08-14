@@ -1,0 +1,27 @@
+.navBarContainer{
+    height : 100vh;
+    display : flex;
+    flex-direction: column;
+    background :  #3B4E58;
+    color : white;
+    width : 7vw;
+}
+.navBarContainer:hover {
+    width : 20vw;
+    transition: width 1s;
+
+}
+.navBarContainer .buttonContainer{
+    width : 20vw;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid white;
+    padding : 5vh 0;
+    cursor: pointer
+}
+.navBarContainer .buttonContainer span {
+    width: 7vw;
+    margin-left: 2vw;
+    margin-right : 0vw;
+
+}

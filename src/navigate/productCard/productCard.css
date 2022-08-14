@@ -1,6 +1,6 @@
 .cardContainer {
-    width : 45vw ;
-    max-height : 40vh;
+    width : 58vw ;
+    max-height : 45vh;
     min-width: 35vw;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     display : flex;
@@ -9,24 +9,29 @@
     border-radius: 12px;
     background-color: white;
     margin-top:2vh;
-    cursor:pointer
-
+    cursor:pointer;
+    height : fit-content;
 }
 
 .cardContainer img {
-    width : 23vw;
-    border-top-right-radius: 12px;
-    border-bottom-right-radius: 12px;
+    max-width : 7vw;
+    max-height : 10vh;
 
+    border-radius : 50%;
+    
+    margin-top : 2vh;
+    margin-left: 1vw;
 }
 
 .cardContainer .infoWrapper {
-    padding : 2vw 2vh
+    padding : 0 2vh
 }
 
 .infoWrapper h1 {
     font-size: 24px;
     line-height: 1em;
+    margin-top : 4vh;
+    margin-bottom : 0;
 }
 .infoWrapper .CategoryLabel {
     color :#314152;
@@ -40,15 +45,13 @@
     justify-content: space-between;
     display : inline-flex;
     color :#B1B1B1;
+    align-items: center;
+    text-align: center;
 
 }
-.rowFlex {
-    display : flex;
-    flex-direction: row;
-    align-items: center;
-}
+
 .verticalLabel {
-    width: 50%;
+    width: 100%;
     display : flex;
     flex-direction: column;
     align-items: center;
@@ -69,4 +72,25 @@
     margin-top:3vh;
     font-size : 12px;
     cursor: pointer;
+}
+.addressContainer h3{
+    font-size : 15px;
+    color : #acacac;
+}
+.learnMoreButton {
+    margin-top:3vh;
+    margin-bottom:0.5vh;
+
+    margin-left: 2vw;
+    font-size : 12px;
+    color : white ;
+    background-color :#314152;
+    border: none;
+    border-radius: 12px;;
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    flex-direction: row;
+    height: 5vh;
+    cursor: pointer
 }

@@ -1,0 +1,48 @@
+.imageUploadContainer{
+    margin-left : 2vw;
+}
+
+.imageUploadContainer button {
+    background-color: #314152;
+    color :white ;
+    border : none ;
+    border-radius : 12px ;
+    padding :  0 1vw ;
+    width : fit-content;
+    cursor : pointer;
+    margin : 1vh 0;
+    align-items: center;
+    justify-content: center;
+}
+.imageUploadContainer button span {
+    font-size : 15px
+}
+.imageUploadContainer label {
+    width : 100%;
+}
+.imagesContainer{
+    display: flex;
+    overflow : none;
+    height : fit-content;
+    flex-wrap: wrap;
+}
+.imageContainer{
+    width : 20vw;
+    margin : 1vh 1vw;
+}
+.buttonsContainer{
+    width : 100%;
+    display :flex;
+    flex-direction: row;
+    justify-content: right;
+}
+.imageIconWrapper {
+    align-items: top;
+}
+.imageIconWrapper span {
+    color :red;
+    margin-top: -3vh;
+}
+.imageIconWrapper img {
+    margin : 1vh 0;
+}

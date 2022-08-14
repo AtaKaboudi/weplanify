@@ -1,0 +1,33 @@
+.SocialMediaBar  {
+    width:99vw;
+    height: fit-content;
+    background : #314152;
+    padding : 2vh ;
+    display : flex;
+    align-items: center;
+    letter-spacing: 1px;
+    margin-top:5vh;
+
+}
+.SocialMediaBar h2 {
+    width: fit-content;
+    margin: 0 auto 0 auto;
+    color : white;
+    font-size: 24px;
+    font-weight:700;
+}
+.SocialMediaBar label {
+    margin : 0px auto ;
+    color : white;
+    width:fit-content;
+}
+.LinksContainer {
+    padding: 1vh 2vw;
+    display : flex;
+    width : fit-content;
+
+    margin : 0 auto;
+}
+.LinksContainer a {
+    margin : 1vw;
+}
